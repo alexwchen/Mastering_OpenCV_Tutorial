@@ -1,0 +1,34 @@
+The system is: Darwin - 12.4.0 - i386
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+=== BUILD NATIVE TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+Check dependencies
+
+CompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC
+    setenv LANG en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC -MMD -MT dependencies -MF /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c -o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+
+Ld ./CompilerIdC normal i386
+    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC -F/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC -filelist /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
+
+PhaseScriptExecution "Run Script" ./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC
+    /bin/sh -c /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is Clang, found in "/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/CompilerIdC"
+

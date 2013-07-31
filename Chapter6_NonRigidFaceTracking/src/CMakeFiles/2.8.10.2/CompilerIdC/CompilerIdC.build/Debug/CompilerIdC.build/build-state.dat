@@ -1,0 +1,68 @@
+TCompilerIdC
+v5
+r1
+cCheck dependencies
+cCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC normal i386
+cPhaseScriptExecution "Run Script" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
+t2
+s0
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+t2
+s0
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
+c0000000051F89F7900000000000000B3
+t1375248249
+s179
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+c0000000051F89F79000000000000002A
+t1375248249
+s42
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c
+c0000000051F89F780000000000002F20
+t1375248248
+s12064
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc4981cf9d6a8b741^bbb534f9d6a8b741^---0#1#0#--18"Check dependencies36"A9C0C615-0168-4DC6-B076-B2400E6B949B-
+
+CCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s396941049.200116
+e396941049.314392
+r1
+xCompileC
+x./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+x/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c4a7b33f9d6a8b741^ac7350f9d6a8b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c0000000000000000^2694"CompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC -MMD -MT dependencies -MF /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c -o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o36"88D587E2-FC02-4702-9161-4D8C8FAA626C-
+
+CLd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC normal i386
+s396941049.321406
+e396941049.347844
+r1
+xLd
+x/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC896252f9d6a8b741^171159f9d6a8b741^---0#0#0#--744"Ld ./CompilerIdC normal i386    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC -F/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC -filelist /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC36"8AA36F37-282D-44B5-8098-87FF12E9CC70-
+
+CPhaseScriptExecution "Run Script" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+s396941049.355807
+e396941049.381776
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'cb9f5bf9d6a8b741^38bb61f9d6a8b741^-47"GCC_VERSION=com.apple.compilers.llvm.clang.1_01(21%IDEActivityLogMessage2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-396941049#0#47#-0#-----0#0#0#--406"PhaseScriptExecution "Run Script" ./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC    /bin/sh -c /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh36"CF6D96E5-014C-4ECA-8374-0A1C73C5B90B-
+

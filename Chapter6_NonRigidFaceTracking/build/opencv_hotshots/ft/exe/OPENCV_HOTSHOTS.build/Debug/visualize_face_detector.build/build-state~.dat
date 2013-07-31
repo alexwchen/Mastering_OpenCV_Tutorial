@@ -1,0 +1,92 @@
+Tvisualize_face_detector
+v5
+r1
+cCheck dependencies
+cCompileC /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Objects-normal/x86_64/visualize_face_detector.o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_face_detector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_face_detector normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Script-AAF089F77E7E4CF6BB7A9899.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_face_detector
+t2
+s0
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Objects-normal/x86_64/visualize_face_detector.LinkFileList
+c0000000051F8D36400000000000000C3
+t1375261540
+s195
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Objects-normal/x86_64/visualize_face_detector.o
+t2
+s0
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Script-AAF089F77E7E4CF6BB7A9899.sh
+c0000000051F8D3640000000000000112
+t1375261540
+s274
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_face_detector.cpp
+c0000000051F89F0A00000000000008ED
+t1375248138
+s2285
+i"opencv_hotshots/ft/ft.hpp"
+i<opencv2/highgui/highgui.hpp>
+i<iostream>
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/ft.hpp
+c0000000051F89F0A0000000000000736
+t1375248138
+s1846
+
+N/opt/local/include/opencv2/highgui/highgui.hpp
+c0000000051CDB01200000000000023CA
+t1372434450
+s9162
+
+CBuild AST from /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_face_detector.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies16c1e7e40aa9b741^41f0e8e40aa9b741^---0#1#0#--18"Check dependencies36"21393510-B3D8-40AD-88B8-DC9345A76B85-
+
+CCompileC /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Objects-normal/x86_64/visualize_face_detector.o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_face_detector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s396954340.910936
+e396954341.986587
+r1
+xCompileC
+x/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Objects-normal/x86_64/visualize_face_detector.o
+x/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_face_detector.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_face_detector.cpp6972e9e40aa9b741^b88ffce50aa9b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_face_detector.cpp0000000000000000^2797"CompileC /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Objects-normal/x86_64/visualize_face_detector.o opencv_hotshots/ft/exe/visualize_face_detector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/include -I/opt/local/include/opencv -I/opt/local/include -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/DerivedSources/x86_64 -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug -MMD -MT dependencies -MF /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Objects-normal/x86_64/visualize_face_detector.d --serialize-diagnostics /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Objects-normal/x86_64/visualize_face_detector.dia -c /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_face_detector.cpp -o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Objects-normal/x86_64/visualize_face_detector.o36"F50A7CAF-1834-47CA-B0D6-44649E2F3FB9-
+
+CLd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_face_detector normal x86_64
+s396954341.993501
+e396954342.107064
+r1
+xLd
+x/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_face_detector
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_face_detector1974fee50aa9b741^68781be60aa9b741^---0#0#0#--2438"Ld /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_face_detector normal x86_64    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug -F/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug -filelist /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Objects-normal/x86_64/visualize_face_detector.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /opt/local/lib/libopencv_calib3d.dylib /opt/local/lib/libopencv_contrib.dylib /opt/local/lib/libopencv_core.dylib /opt/local/lib/libopencv_features2d.dylib /opt/local/lib/libopencv_flann.dylib /opt/local/lib/libopencv_gpu.dylib /opt/local/lib/libopencv_highgui.dylib /opt/local/lib/libopencv_imgproc.dylib /opt/local/lib/libopencv_legacy.dylib /opt/local/lib/libopencv_ml.dylib /opt/local/lib/libopencv_nonfree.dylib /opt/local/lib/libopencv_objdetect.dylib /opt/local/lib/libopencv_photo.dylib /opt/local/lib/libopencv_stitching.dylib /opt/local/lib/libopencv_superres.dylib /opt/local/lib/libopencv_ts.dylib /opt/local/lib/libopencv_video.dylib /opt/local/lib/libopencv_videostab.dylib /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Debug/libft.a /opt/local/lib/libopencv_calib3d.dylib /opt/local/lib/libopencv_contrib.dylib /opt/local/lib/libopencv_core.dylib /opt/local/lib/libopencv_features2d.dylib /opt/local/lib/libopencv_flann.dylib /opt/local/lib/libopencv_gpu.dylib /opt/local/lib/libopencv_highgui.dylib /opt/local/lib/libopencv_imgproc.dylib /opt/local/lib/libopencv_legacy.dylib /opt/local/lib/libopencv_ml.dylib /opt/local/lib/libopencv_nonfree.dylib /opt/local/lib/libopencv_objdetect.dylib /opt/local/lib/libopencv_photo.dylib /opt/local/lib/libopencv_stitching.dylib /opt/local/lib/libopencv_superres.dylib /opt/local/lib/libopencv_ts.dylib /opt/local/lib/libopencv_video.dylib /opt/local/lib/libopencv_videostab.dylib -o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_face_detector36"F0A2DAF0-E8D6-4BC9-9D72-81F727DA7D52-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Script-AAF089F77E7E4CF6BB7A9899.sh
+s396954342.114935
+e396954342.177249
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Script-AAF089F77E7E4CF6BB7A9899.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build && make -C /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.visualize_face_detector.Debug
+omake[1]: Nothing to be done for `PostBuild.visualize_face_detector.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'26011ee60aa9b741^6c5e2de60aa9b741^-421"echo "Depend check for xcode"Depend check for xcodecd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build && make -C /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.visualize_face_detector.Debugmake[1]: Nothing to be done for `PostBuild.visualize_face_detector.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-396954342#0#30#-0#-----2@23"Depend check for xcode-396954342#30#23#-0#-----2@293"cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build && make -C /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.visualize_face_detector.Debug-396954342#53#293#-0#-----2@75"make[1]: Nothing to be done for `PostBuild.visualize_face_detector.Debug'.-396954342#346#75#-0#-----0#0#0#--495"PhaseScriptExecution "CMake PostBuild Rules" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Script-AAF089F77E7E4CF6BB7A9899.sh    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src    /bin/sh -c /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_face_detector.build/Script-AAF089F77E7E4CF6BB7A9899.sh36"C1536D8D-C90B-411A-8997-58AF7A0643D4-
+

@@ -1,0 +1,28 @@
+TALL_BUILD
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/OPENCV_HOTSHOTS.build/Debug/ALL_BUILD.build/Script-53D7150B1BE343549105DC93.sh
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/OPENCV_HOTSHOTS.build/Debug/ALL_BUILD.build/Script-53D7150B1BE343549105DC93.sh
+c0000000051F8D36700000000000000DC
+t1375261543
+s220
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9564d9e70aa9b741^cf10dae70aa9b741^---0#1#0#--18"Check dependencies36"C4075FC8-B0B5-45CC-B4B8-0F4DC440D116-
+
+CPhaseScriptExecution "CMake Rules" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/OPENCV_HOTSHOTS.build/Debug/ALL_BUILD.build/Script-53D7150B1BE343549105DC93.sh
+s396954343.853437
+e396954343.931875
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/OPENCV_HOTSHOTS.build/Debug/ALL_BUILD.build/Script-53D7150B1BE343549105DC93.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'a131dbe70aa9b741^1d8eeee70aa9b741^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-396954343#0#8#-0#-----2@26"echo Build\ all\ projects-396954343#9#26#-0#-----2@19"Build all projects-396954343#35#19#-0#-----0#0#0#--411"PhaseScriptExecution "CMake Rules" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/OPENCV_HOTSHOTS.build/Debug/ALL_BUILD.build/Script-53D7150B1BE343549105DC93.sh    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src    /bin/sh -c /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/OPENCV_HOTSHOTS.build/Debug/ALL_BUILD.build/Script-53D7150B1BE343549105DC93.sh36"1788C79B-90B4-4997-BF34-C6BF49BCE341-
+

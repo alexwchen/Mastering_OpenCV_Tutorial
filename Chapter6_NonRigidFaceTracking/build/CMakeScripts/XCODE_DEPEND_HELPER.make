@@ -1,0 +1,1758 @@
+# DO NOT EDIT
+# This makefile makes sure all linkable targets are
+# up-to-date with anything they link to
+default:
+	echo "Do not invoke directly"
+
+# For each target create a dummy rule so the target does not have to exist
+/opt/local/lib/libopencv_calib3d.dylib:
+/opt/local/lib/libopencv_contrib.dylib:
+/opt/local/lib/libopencv_core.dylib:
+/opt/local/lib/libopencv_features2d.dylib:
+/opt/local/lib/libopencv_flann.dylib:
+/opt/local/lib/libopencv_gpu.dylib:
+/opt/local/lib/libopencv_highgui.dylib:
+/opt/local/lib/libopencv_imgproc.dylib:
+/opt/local/lib/libopencv_legacy.dylib:
+/opt/local/lib/libopencv_ml.dylib:
+/opt/local/lib/libopencv_nonfree.dylib:
+/opt/local/lib/libopencv_objdetect.dylib:
+/opt/local/lib/libopencv_photo.dylib:
+/opt/local/lib/libopencv_stitching.dylib:
+/opt/local/lib/libopencv_superres.dylib:
+/opt/local/lib/libopencv_ts.dylib:
+/opt/local/lib/libopencv_video.dylib:
+/opt/local/lib/libopencv_videostab.dylib:
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Debug/libft.a:
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/MinSizeRel/libft.a:
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/RelWithDebInfo/libft.a:
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Release/libft.a:
+
+
+# Rules to remove targets that are older than anything to which they
+# link.  This forces Xcode to relink the targets from scratch.  It
+# does not seem to check these dependencies itself.
+PostBuild.ft.Debug:
+PostBuild.annotate.Debug:
+PostBuild.ft.Debug: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/annotate
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/annotate:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Debug/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/annotate
+
+
+PostBuild.train_face_detector.Debug:
+PostBuild.ft.Debug: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/train_face_detector
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/train_face_detector:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Debug/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/train_face_detector
+
+
+PostBuild.train_face_tracker.Debug:
+PostBuild.ft.Debug: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/train_face_tracker
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/train_face_tracker:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Debug/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/train_face_tracker
+
+
+PostBuild.train_patch_model.Debug:
+PostBuild.ft.Debug: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/train_patch_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/train_patch_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Debug/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/train_patch_model
+
+
+PostBuild.train_shape_model.Debug:
+PostBuild.ft.Debug: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/train_shape_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/train_shape_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Debug/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/train_shape_model
+
+
+PostBuild.visualize_annotations.Debug:
+PostBuild.ft.Debug: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_annotations
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_annotations:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Debug/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_annotations
+
+
+PostBuild.visualize_face_detector.Debug:
+PostBuild.ft.Debug: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_face_detector
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_face_detector:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Debug/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_face_detector
+
+
+PostBuild.visualize_face_tracker.Debug:
+PostBuild.ft.Debug: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_face_tracker
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_face_tracker:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Debug/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_face_tracker
+
+
+PostBuild.visualize_patch_model.Debug:
+PostBuild.ft.Debug: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_patch_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_patch_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Debug/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_patch_model
+
+
+PostBuild.visualize_shape_model.Debug:
+PostBuild.ft.Debug: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_shape_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_shape_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Debug/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_shape_model
+
+
+PostBuild.ft.Release:
+PostBuild.annotate.Release:
+PostBuild.ft.Release: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/annotate
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/annotate:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Release/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/annotate
+
+
+PostBuild.train_face_detector.Release:
+PostBuild.ft.Release: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/train_face_detector
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/train_face_detector:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Release/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/train_face_detector
+
+
+PostBuild.train_face_tracker.Release:
+PostBuild.ft.Release: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/train_face_tracker
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/train_face_tracker:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Release/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/train_face_tracker
+
+
+PostBuild.train_patch_model.Release:
+PostBuild.ft.Release: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/train_patch_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/train_patch_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Release/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/train_patch_model
+
+
+PostBuild.train_shape_model.Release:
+PostBuild.ft.Release: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/train_shape_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/train_shape_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Release/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/train_shape_model
+
+
+PostBuild.visualize_annotations.Release:
+PostBuild.ft.Release: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_annotations
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_annotations:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Release/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_annotations
+
+
+PostBuild.visualize_face_detector.Release:
+PostBuild.ft.Release: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_face_detector
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_face_detector:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Release/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_face_detector
+
+
+PostBuild.visualize_face_tracker.Release:
+PostBuild.ft.Release: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_face_tracker
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_face_tracker:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Release/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_face_tracker
+
+
+PostBuild.visualize_patch_model.Release:
+PostBuild.ft.Release: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_patch_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_patch_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Release/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_patch_model
+
+
+PostBuild.visualize_shape_model.Release:
+PostBuild.ft.Release: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_shape_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_shape_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Release/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Release/visualize_shape_model
+
+
+PostBuild.ft.MinSizeRel:
+PostBuild.annotate.MinSizeRel:
+PostBuild.ft.MinSizeRel: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/annotate
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/annotate:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/MinSizeRel/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/annotate
+
+
+PostBuild.train_face_detector.MinSizeRel:
+PostBuild.ft.MinSizeRel: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/train_face_detector
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/train_face_detector:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/MinSizeRel/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/train_face_detector
+
+
+PostBuild.train_face_tracker.MinSizeRel:
+PostBuild.ft.MinSizeRel: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/train_face_tracker
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/train_face_tracker:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/MinSizeRel/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/train_face_tracker
+
+
+PostBuild.train_patch_model.MinSizeRel:
+PostBuild.ft.MinSizeRel: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/train_patch_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/train_patch_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/MinSizeRel/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/train_patch_model
+
+
+PostBuild.train_shape_model.MinSizeRel:
+PostBuild.ft.MinSizeRel: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/train_shape_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/train_shape_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/MinSizeRel/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/train_shape_model
+
+
+PostBuild.visualize_annotations.MinSizeRel:
+PostBuild.ft.MinSizeRel: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_annotations
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_annotations:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/MinSizeRel/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_annotations
+
+
+PostBuild.visualize_face_detector.MinSizeRel:
+PostBuild.ft.MinSizeRel: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_face_detector
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_face_detector:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/MinSizeRel/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_face_detector
+
+
+PostBuild.visualize_face_tracker.MinSizeRel:
+PostBuild.ft.MinSizeRel: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_face_tracker
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_face_tracker:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/MinSizeRel/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_face_tracker
+
+
+PostBuild.visualize_patch_model.MinSizeRel:
+PostBuild.ft.MinSizeRel: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_patch_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_patch_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/MinSizeRel/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_patch_model
+
+
+PostBuild.visualize_shape_model.MinSizeRel:
+PostBuild.ft.MinSizeRel: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_shape_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_shape_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/MinSizeRel/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/MinSizeRel/visualize_shape_model
+
+
+PostBuild.ft.RelWithDebInfo:
+PostBuild.annotate.RelWithDebInfo:
+PostBuild.ft.RelWithDebInfo: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/annotate
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/annotate:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/RelWithDebInfo/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/annotate
+
+
+PostBuild.train_face_detector.RelWithDebInfo:
+PostBuild.ft.RelWithDebInfo: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/train_face_detector
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/train_face_detector:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/RelWithDebInfo/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/train_face_detector
+
+
+PostBuild.train_face_tracker.RelWithDebInfo:
+PostBuild.ft.RelWithDebInfo: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/train_face_tracker
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/train_face_tracker:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/RelWithDebInfo/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/train_face_tracker
+
+
+PostBuild.train_patch_model.RelWithDebInfo:
+PostBuild.ft.RelWithDebInfo: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/train_patch_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/train_patch_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/RelWithDebInfo/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/train_patch_model
+
+
+PostBuild.train_shape_model.RelWithDebInfo:
+PostBuild.ft.RelWithDebInfo: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/train_shape_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/train_shape_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/RelWithDebInfo/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/train_shape_model
+
+
+PostBuild.visualize_annotations.RelWithDebInfo:
+PostBuild.ft.RelWithDebInfo: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_annotations
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_annotations:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/RelWithDebInfo/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_annotations
+
+
+PostBuild.visualize_face_detector.RelWithDebInfo:
+PostBuild.ft.RelWithDebInfo: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_face_detector
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_face_detector:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/RelWithDebInfo/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_face_detector
+
+
+PostBuild.visualize_face_tracker.RelWithDebInfo:
+PostBuild.ft.RelWithDebInfo: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_face_tracker
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_face_tracker:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/RelWithDebInfo/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_face_tracker
+
+
+PostBuild.visualize_patch_model.RelWithDebInfo:
+PostBuild.ft.RelWithDebInfo: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_patch_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_patch_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/RelWithDebInfo/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_patch_model
+
+
+PostBuild.visualize_shape_model.RelWithDebInfo:
+PostBuild.ft.RelWithDebInfo: /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_shape_model
+/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_shape_model:\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib\
+	/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/RelWithDebInfo/libft.a\
+	/opt/local/lib/libopencv_calib3d.dylib\
+	/opt/local/lib/libopencv_contrib.dylib\
+	/opt/local/lib/libopencv_core.dylib\
+	/opt/local/lib/libopencv_features2d.dylib\
+	/opt/local/lib/libopencv_flann.dylib\
+	/opt/local/lib/libopencv_gpu.dylib\
+	/opt/local/lib/libopencv_highgui.dylib\
+	/opt/local/lib/libopencv_imgproc.dylib\
+	/opt/local/lib/libopencv_legacy.dylib\
+	/opt/local/lib/libopencv_ml.dylib\
+	/opt/local/lib/libopencv_nonfree.dylib\
+	/opt/local/lib/libopencv_objdetect.dylib\
+	/opt/local/lib/libopencv_photo.dylib\
+	/opt/local/lib/libopencv_stitching.dylib\
+	/opt/local/lib/libopencv_superres.dylib\
+	/opt/local/lib/libopencv_ts.dylib\
+	/opt/local/lib/libopencv_video.dylib\
+	/opt/local/lib/libopencv_videostab.dylib
+	/bin/rm -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/RelWithDebInfo/visualize_shape_model
+
+

@@ -1,0 +1,28 @@
+TZERO_CHECK
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/OPENCV_HOTSHOTS.build/Debug/ZERO_CHECK.build/Script-B5BF84A2044E48BF86FE4518.sh
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/OPENCV_HOTSHOTS.build/Debug/ZERO_CHECK.build/Script-B5BF84A2044E48BF86FE4518.sh
+c0000000051F8D35B00000000000000DD
+t1375261531
+s221
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies105d54db0aa9b741^c79e55db0aa9b741^---0#1#0#--18"Check dependencies36"B52FEB16-39C7-40ED-AB22-A4E0870DEC7A-
+
+CPhaseScriptExecution "CMake Rules" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/OPENCV_HOTSHOTS.build/Debug/ZERO_CHECK.build/Script-B5BF84A2044E48BF86FE4518.sh
+s396954331.413558
+e396954331.695909
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/OPENCV_HOTSHOTS.build/Debug/ZERO_CHECK.build/Script-B5BF84A2044E48BF86FE4518.sh
+oecho ""
+o
+omake -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'31996adb0aa9b741^a226b2db0aa9b741^-167"echo ""make -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-396954331#0#8#-0#-----2@103"make -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/CMakeScripts/ReRunCMake.make-396954331#9#103#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-396954331#112#55#-0#-----0#0#0#--413"PhaseScriptExecution "CMake Rules" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/OPENCV_HOTSHOTS.build/Debug/ZERO_CHECK.build/Script-B5BF84A2044E48BF86FE4518.sh    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src    /bin/sh -c /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/OPENCV_HOTSHOTS.build/Debug/ZERO_CHECK.build/Script-B5BF84A2044E48BF86FE4518.sh36"23A65E71-E2A0-4229-897E-44B114B2E322-
+

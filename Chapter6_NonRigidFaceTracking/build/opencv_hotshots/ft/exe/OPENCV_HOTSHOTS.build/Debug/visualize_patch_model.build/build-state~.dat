@@ -1,0 +1,98 @@
+Tvisualize_patch_model
+v5
+r1
+cCheck dependencies
+cCompileC /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Objects-normal/x86_64/visualize_patch_model.o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_patch_model.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_patch_model normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Script-AF5F6D9671D84173A3CBD1D7.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c0000000051B4C10D0000000000004523
+t1370800397
+s17699
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_patch_model
+t2
+s0
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Objects-normal/x86_64/visualize_patch_model.LinkFileList
+c0000000051F8D36300000000000000BF
+t1375261539
+s191
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Objects-normal/x86_64/visualize_patch_model.o
+t2
+s0
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Script-AF5F6D9671D84173A3CBD1D7.sh
+c0000000051F8D3630000000000000110
+t1375261539
+s272
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_patch_model.cpp
+c0000000051F89F0A0000000000001287
+t1375248138
+s4743
+i"opencv_hotshots/ft/ft.hpp"
+i<opencv2/highgui/highgui.hpp>
+i<iostream>
+i"stdio.h"
+
+N/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/ft.hpp
+c0000000051F89F0A0000000000000736
+t1375248138
+s1846
+
+N/opt/local/include/opencv2/highgui/highgui.hpp
+c0000000051CDB01200000000000023CA
+t1372434450
+s9162
+
+CBuild AST from /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_patch_model.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesef8ca6e30aa9b741^522ca7e30aa9b741^---0#1#0#--18"Check dependencies36"B818CDF3-FE32-4436-95C3-80EEEBB8B326-
+
+CCompileC /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Objects-normal/x86_64/visualize_patch_model.o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_patch_model.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s396954339.654904
+e396954340.673555
+r1
+xCompileC
+x/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Objects-normal/x86_64/visualize_patch_model.o
+x/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_patch_model.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_patch_model.cpp4bcca7e30aa9b741^0d6dace40aa9b741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_patch_model.cpp0000000000000000^2773"CompileC /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Objects-normal/x86_64/visualize_patch_model.o opencv_hotshots/ft/exe/visualize_patch_model.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/include -I/opt/local/include/opencv -I/opt/local/include -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/DerivedSources/x86_64 -I/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug -MMD -MT dependencies -MF /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Objects-normal/x86_64/visualize_patch_model.d --serialize-diagnostics /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Objects-normal/x86_64/visualize_patch_model.dia -c /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/exe/visualize_patch_model.cpp -o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Objects-normal/x86_64/visualize_patch_model.o36"9ADA90BB-B47A-40D2-80CB-11182D0B1345-
+
+CLd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_patch_model normal x86_64
+s396954340.680418
+e396954340.788647
+r1
+xLd
+x/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_patch_model
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_patch_model145eaee40aa9b741^c7f3c9e40aa9b741^---0#0#0#--2430"Ld /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_patch_model normal x86_64    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug -F/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug -filelist /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Objects-normal/x86_64/visualize_patch_model.LinkFileList -mmacosx-version-min=10.8 -Wl,-search_paths_first -Wl,-headerpad_max_install_names /opt/local/lib/libopencv_calib3d.dylib /opt/local/lib/libopencv_contrib.dylib /opt/local/lib/libopencv_core.dylib /opt/local/lib/libopencv_features2d.dylib /opt/local/lib/libopencv_flann.dylib /opt/local/lib/libopencv_gpu.dylib /opt/local/lib/libopencv_highgui.dylib /opt/local/lib/libopencv_imgproc.dylib /opt/local/lib/libopencv_legacy.dylib /opt/local/lib/libopencv_ml.dylib /opt/local/lib/libopencv_nonfree.dylib /opt/local/lib/libopencv_objdetect.dylib /opt/local/lib/libopencv_photo.dylib /opt/local/lib/libopencv_stitching.dylib /opt/local/lib/libopencv_superres.dylib /opt/local/lib/libopencv_ts.dylib /opt/local/lib/libopencv_video.dylib /opt/local/lib/libopencv_videostab.dylib /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/lib/Debug/libft.a /opt/local/lib/libopencv_calib3d.dylib /opt/local/lib/libopencv_contrib.dylib /opt/local/lib/libopencv_core.dylib /opt/local/lib/libopencv_features2d.dylib /opt/local/lib/libopencv_flann.dylib /opt/local/lib/libopencv_gpu.dylib /opt/local/lib/libopencv_highgui.dylib /opt/local/lib/libopencv_imgproc.dylib /opt/local/lib/libopencv_legacy.dylib /opt/local/lib/libopencv_ml.dylib /opt/local/lib/libopencv_nonfree.dylib /opt/local/lib/libopencv_objdetect.dylib /opt/local/lib/libopencv_photo.dylib /opt/local/lib/libopencv_stitching.dylib /opt/local/lib/libopencv_superres.dylib /opt/local/lib/libopencv_ts.dylib /opt/local/lib/libopencv_video.dylib /opt/local/lib/libopencv_videostab.dylib -o /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/bin/Debug/visualize_patch_model36"8A668FAC-1B0B-424C-A781-F56CA90C9649-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Script-AF5F6D9671D84173A3CBD1D7.sh
+s396954340.796725
+e396954340.852074
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Script-AF5F6D9671D84173A3CBD1D7.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build && make -C /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.visualize_patch_model.Debug
+omake[1]: Nothing to be done for `PostBuild.visualize_patch_model.Debug'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'077ecce40aa9b741^533cdae40aa9b741^-417"echo "Depend check for xcode"Depend check for xcodecd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build && make -C /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.visualize_patch_model.Debugmake[1]: Nothing to be done for `PostBuild.visualize_patch_model.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-396954340#0#30#-0#-----2@23"Depend check for xcode-396954340#30#23#-0#-----2@291"cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build && make -C /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build -f /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.visualize_patch_model.Debug-396954340#53#291#-0#-----2@73"make[1]: Nothing to be done for `PostBuild.visualize_patch_model.Debug'.-396954340#344#73#-0#-----0#0#0#--491"PhaseScriptExecution "CMake PostBuild Rules" /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Script-AF5F6D9671D84173A3CBD1D7.sh    cd /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/src    /bin/sh -c /Users/alexwchen/Desktop/code/Chapter6_NonRigidFaceTracking/build/opencv_hotshots/ft/exe/OPENCV_HOTSHOTS.build/Debug/visualize_patch_model.build/Script-AF5F6D9671D84173A3CBD1D7.sh36"12C909C6-35F0-43FB-920B-2AEEC55F79CB-
+
